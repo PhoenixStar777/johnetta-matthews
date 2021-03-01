@@ -4,13 +4,11 @@
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-    background-image: url(image/backgrounds/light-pastel-background.jpg);
     padding: 3em;
   }
   
   header {
     background-color: #3b2739;
-    background-image: url(image/backgrounds/light-pastel-background.jpg);
     margin-bottom: 40px;
   }
   
@@ -91,7 +89,6 @@ body {
   
   footer {
     background-color: #403933;
-    background-image: url(image/backgrounds/light-pastel-background.jpg);
     margin-top: 40px;
     margin-bottom: 0;
   }
