@@ -3,17 +3,19 @@
 
 body {
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 3em;
+    font-family: Garamond;
+    padding: 3em;   
+    
+    
   }
   
   header {
     background-color: #3b2739;
-    margin-bottom: 40px;
+    margin-bottom: 160px;
   }
   
   .logo {
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: Garamond;
     font-size: 72px;
     color: #c5c0b8;
     text-align: center;
@@ -46,7 +48,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 0 20px 0 0;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: Garamond;
   }
   
   header nav ul li a:hover {
@@ -96,21 +98,21 @@ body {
   /* ---  Typography --- */
   
   h1 {
-    font-size: 30px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 32px;
+    font-family: Garamond;
     font-weight: 400;
     color: #6b4375;
   }
   
   h2 {
-    font-size: 26px;
+    font-size: 28px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     margin: 0 10px;
   }
   
   h3 {
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 500;
   }
@@ -119,6 +121,9 @@ body {
    font-family: 'Montserrat', sans-serif;
    line-height: 1.5em;
    margin-bottom: 0;
+   font-size: 20px;
+   
+   
   }
   
   main a {
@@ -126,10 +131,10 @@ body {
       text-decoration: none;	
   }
   
-  main  a:link { color: #a3c2d6; }
+  main  a:link { color: #8d0882; }
   main  a:visited { color: #1f60b4;; }
   main  a:hover { color: #d7dddf; }
-  a:active { color: #66604c; }
+  a:active { color: #10be45; }
   
   
   a:hover {
@@ -145,15 +150,18 @@ body {
   
   
   main img {
-    width: 60%;
-    transition: transform .5s;
+    width: 80%;
+    transition: transform .3s;
+    padding-left: 2.75rem;
+    padding-top: 1.25rem;
+    
   }
   
   img.image-enhanced {
-    border-radius: 50px;
+    border-radius: 80px;
   }
   img:hover {
-    transform: scale(2.5);
+    transform: scale(1.1);
   }
   
   .group {
@@ -183,6 +191,7 @@ body {
   @media all and (min-width: 800px) {
     section {
       padding: 0 10%;
+      text-align: justify;
     }
     .group {
       flex-direction: row;
