@@ -173,6 +173,9 @@ body {
     flex: 1;
     margin: 10px;
   }
+  .table{
+    right
+  }
   
   .item-double {
     flex: 2;
@@ -183,6 +186,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
   
   
   
